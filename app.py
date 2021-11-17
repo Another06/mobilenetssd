@@ -153,7 +153,7 @@ def event_handle(event):
             replyObj = TextSendMessage(text="สภาพ")
         elif msg == "กินข้าวไหม":
             replyObj = TextSendMessage(text="ไม่ ขอกินพิซซ่า")
-        elif msg == "ไปเที่ยวกันไหม" 
+        elif msg == "ไปเที่ยวกันไหม":
             replyObj = TextSendMessage(text="ไปดิ")
         else:  
             replyObj = TextSendMessage(text=msg) 
